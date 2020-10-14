@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    /* background-color: rgb(117, 128, 128);	 */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .wrapper{
+      width: 95%;
+      margin: 0 auto;
+      
+  }
+  .about{
+    /* position: absolute; */
+    /* top:35px; */
+    padding: 12px;
+    margin: auto 0;
+    /* height: 400px; */
+  }
+  .nav-bar{
+
+    /* position: fixed; */
+    /* width: 95%; */
+  }
+  .gtaTable{
+      width: 100%;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  td{
+      text-align: center;
+  }
