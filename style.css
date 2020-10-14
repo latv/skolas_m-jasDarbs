@@ -55,11 +55,9 @@ ul {
       text-align: center;
   }
   .gallery{
-    margin-top: 10px;
-    margin-left: 15px;
-
-    float: left;
-
+display: grid;
+gap:1em;
+ grid-template-columns:repeat(auto-fit(240px,1fr));
   
   }
   
@@ -74,6 +72,10 @@ ul {
   
   .gallery img:hover{
     transform:scale(1.1);
+  }
+  .card{
+
+    float: left;
   }
   .languge {
     float: right;
@@ -140,5 +142,8 @@ ul {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .logo{
+    width: 30px;
   }
   
