@@ -57,20 +57,25 @@ ul {
   .gallery{
     margin-top: 10px;
     margin-left: 15px;
-    border: 1px solid black;
+
     float: left;
-    width: 270px;
-    height:170px;
+
   
   }
   
   .gallery img{
       width: 100%;
-      height: auto;
+      
       transition: 1s;
-      position: grid;
+ 
+      width: 30%;
+      height: 30%;
   }
   
   .gallery img:hover{
     transform:scale(1.1);
   }
+  .languge {
+    float: right;
+  }
+  
