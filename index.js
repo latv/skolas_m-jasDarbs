@@ -1,6 +1,6 @@
 function setIzstr(){
 
-    document.getElementById("content").innerText= "Izstrādājs : Jānis Feldmanis";
+    document.getElementById("content").innerText= "Izstrādātājs : Jānis Feldmanis";
 }
 function setEmail(){
 
