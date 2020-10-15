@@ -56,30 +56,18 @@ ul {
   td{
       text-align: center;
   }
-  .gallery{
+  /* .gallery{
   display: grid;
   gap:1em;
   grid-template-columns:repeat(auto-fit(240px,1fr));
   margin: 20px;
   
-  }
+  } */
   
-  .gallery img{
-      width: 100%;
-      
-      transition: 1s;
- 
-      width: 30%;
-      height: 30%;
-  }
-  
-  .gallery img:hover{
-    transform:scale(1.1);
-  }
-  .card{
 
-    float: left;
-  }
+  
+
+ 
   .languge {
     float: right;
   }
@@ -165,4 +153,24 @@ ul {
   .sidebar-content:hover{
 
     background-color: gray;
+  }
+  div.picture {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+  }
+  
+  div.picture:hover {
+    border: 1px solid #777;
+    scale: 1.1;
+  }
+  img:hover {
+    border: 1px solid #777;
+    scale: 1.5;
+  }
+  
+  div.picture img {
+    width: 100%;
+    height: auto;
   }
