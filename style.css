@@ -46,18 +46,21 @@ ul {
     /* width: 95%; */
   }
   .gtaTable{
-      width: 100%;
+      width: 95%;
+      
   }
   table, th, td {
     border: 1px solid black;
+    
   }
   td{
       text-align: center;
   }
   .gallery{
-display: grid;
-gap:1em;
- grid-template-columns:repeat(auto-fit(240px,1fr));
+  display: grid;
+  gap:1em;
+  grid-template-columns:repeat(auto-fit(240px,1fr));
+  margin: 20px;
   
   }
   
@@ -82,6 +85,7 @@ gap:1em;
   }
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(194, 196, 198);
   }
   
   .navbar {
@@ -90,7 +94,7 @@ gap:1em;
   }
   
   .navbar a {
-    float: left;
+    /* float: left; */
     font-size: 16px;
     color: white;
     text-align: center;
@@ -144,6 +148,21 @@ gap:1em;
     display: block;
   }
   .logo{
-    width: 30px;
+    height: 16px;
   }
-  
+  #sidebar {
+    width: 200px;
+   /* background-color: red;	*/
+    float: right;
+    min-height: 300px;
+    background-image: ;
+     box-shadow: 10px 10px 20px grey;
+  }
+  .sidebar-content{
+    width: 100%;
+    
+  }
+  .sidebar-content:hover{
+
+    background-color: gray;
+  }
